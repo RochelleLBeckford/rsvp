@@ -1,0 +1,21 @@
+* {
+    background-color: #f0bec9;
+}
+
+h1 {
+    text-decoration: underline;
+    /* ~ set the offset distance between the text and the underline */
+    text-underline-offset: 5px;
+}
+
+h2 {
+    text-decoration: underline;
+    /* ~ set the offset distance between the text and the underline */
+    text-underline-offset: 5px;
+}
+
+h3 {
+    text-decoration: underline;
+    /* ~ set the offset distance between the text and the underline */
+    text-underline-offset: 5px;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Input Types: Number | Checkbox & Radio</title>
+        <!-- & Link to CSS File -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form action="">
+            <!-- & Input Type: Number
+            ~ This would be when numbers are involved in forms
+            ~ When the cursor hovers above this input an 'up' & 'down' arrow buttons will appear on the right side
+                ~ it will increase or decrease the number one by one
+            -->
+            <label for="">Input for Numbers</label>
+            <input
+                type="number"
+                name=""
+                id=""
+                placeholder="Type numbers here"
+            />
+            <br />
+            <br />
+
+            <!-- -> step attribute
+            ~ Use step attribute can change this from one by one to something else
+            ~ now the input value will go up by 2
+            -->
+            <label for="">Input for Numbers with step attribute</label>
+            <input
+                type="number"
+                name=""
+                id=""
+                step="2"
+                placeholder="Type numbers here"
+            />
+            <br />
+            <br />
+
+            <!-- -> max & min attribute
+            ~ Use max or min attribute to set how high or low an input value can go
+            -->
+            <label for="">Input for Numbers with max & min attribute</label>
+            <input
+                type="number"
+                name=""
+                id=""
+                min="1"
+                max="15"
+                placeholder="Type numbers here"
+            />
+            <br />
+            <br />
+
+            <!-- & Input Type: Checkbox & Radio
+            ~ there are inputs that allow is to make one or more choices from a list of options
+            ~ checkbox & radio
+            -->
+            <!-- -> checkbox attribute
+            ~ renders as a box that is ticked off to mark the input as 'finished' or 'complete'
+            ~ can check multiple items with this input type
+            -->
+            <h3>Favorite Movie Genres (checkbox attribute)</h3>
+            <input type="checkbox" name="" id="">
+            <label for="">Action</label>
+            <br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Sci-Fi</label>
+            <br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Rom-Com</label>
+            <br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">K-Drama</label>
+            <br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Dcumentary</label>
+            <br>
+
+            <!-- -> radio attribute
+            ~ similar to checkbox radio buttons are lists of options
+            ~ only one can be collected at a time
+            ~ in order for only one to be selected at a tine add the 'name' attribute as well to each radio input type
+                ~ this will put them in the samw group of options to choose from
+                ~ name="option"
+            -->
+            <h3>Which do you think?</h3>
+            <input type="radio" name="option" id="">
+            <label for="">Yanny</label>
+            <br>
+
+            <input type="radio" name="option" id="">
+            <label for="">Laurel</label>
+            <br>
+            <br>
+            
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
