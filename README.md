@@ -1,4 +1,4 @@
-# Practice: Understanding Inputs using numbers and being able to make one or more choices from a list of options in Forms
+# Practice: Understanding Inputs using numbers and to make one or more choices from a list of options in Forms
 
 ### Practice working with HTML Forms - Input Number | Checkbox & Radio
 
