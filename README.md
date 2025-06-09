@@ -11,7 +11,7 @@
             -   [ ] min & max attribute -> set how high or low an input value can go
         -   [ ] input type = "checkbox" -> allows the user to select one or more choices from the list of options
         -   [ ] input type = "radio" -> similiar to the checkbox radio buttons are a list of options, but only one choice can be selected at time
-            -   [ ] in order for that to happen must have the following attribute name="option"
+            -   [ ] in order to ensure that only one choice can be selected at a time, must have the following name attribute as well -> name="option"
         -   [ ] input type = "submit" -> turns the input element into a button for submitting the form data
             -   [ ] input value = "Submit the form!" -> this attribute can change the text of the "Submit" button
 
